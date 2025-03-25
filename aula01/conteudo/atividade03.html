@@ -19,7 +19,7 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
-                <li class="nav-item active">
+                <li class="nav-item">
                     <a class="nav-link" href="index.html">Home</a>
                 </li>
                 <li class="nav-item">
@@ -31,7 +31,7 @@
                 <li class="nav-item ">
                     <a class="nav-link" href="atividade02.html">Atividade02</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item active">
                     <a class="nav-link" href="atividade03.html">Atividade03</a>
                 </li>
             </ul>
@@ -40,22 +40,38 @@
 
     <div class="container">
         <div class="row">
-            <div class="col-md-6 col-sm-12">
-                <div class="alert alert-success" role="alert">
-                    Um simples alerta success. Olha só!
+            <div class="col-md-4 col-sm-12">
+                <div class="card">
+                    <div class="card-header">
+                        Destaque
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Título especial</h5>
+                        <p class="card-text">Com suporte a texto embaixo, que funciona como uma introdução a um conteúdo
+                            adicional.</p>
+                        <a href="#" class="btn btn-primary">Visitar</a>
+                    </div>
                 </div>
             </div>
-            <div class="col-md-6 col-sm-12">
-                <div class="alert alert-warning" role="alert">
-                    Um simples alerta warning. Olha só!
-                </div>
-            </div>
-        </div>
+            <div class="col-md-8 col-sm-12">
+                <div class="form-group">
+                    <label for="txtvalor1">Valor 1</label>
+                    <input type="number" name="txtvalor1"
+                    id="txtvalor1" step="0,5" class="form-control">
 
-        <div class="row">
-            <div class="col-12">
+                    <label for="txtvalor2">Valor 2</label>
+                    <input type="number" name="txtvalor2"
+                    id="txtvalor2" step="0,5" class="form-control">
+                </div>
+                <button id="calcular" class="btn btn-primary mb-4">Calcular</button>
                 <div class="alert alert-warning" role="alert">
-                    Um simples alerta warning. Olha só!
+                    <p id="resultado"></p>
+                </div>
+                <div class="alert alert-primary" role="alert">
+                    <p id="msg"></p>
+                </div>
+                <div class="alert alert-success" role="alert">
+                    <p id="fatorial"></p>
                 </div>
             </div>
         </div>
@@ -65,7 +81,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
 
-    <script src="js/script.js"></script>
+    <script src="js/exemplo03.js"></script>
 </body>
 
 </html>

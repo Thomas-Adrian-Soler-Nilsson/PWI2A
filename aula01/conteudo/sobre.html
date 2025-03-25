@@ -31,6 +31,9 @@
                 <li class="nav-item ">
                     <a class="nav-link" href="atividade02.html">Atividade02</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="atividade03.html">Atividade03</a>
+                </li>
             </ul>
         </div>
     </nav>
@@ -50,6 +53,27 @@
                     </div>
                 </div>
             </div>
+            <div class="col-md-8 col-sm-12">
+                <div class="form-group">
+                    <label for="txtvalor1">Valor 1</label>
+                    <input type="number" name="txtvalor1"
+                    id="txtvalor1" step="0,5" class="form-control">
+
+                    <label for="txtvalor2">Valor 2</label>
+                    <input type="number" name="txtvalor2"
+                    id="txtvalor2" step="0,5" class="form-control">
+                </div>
+                <button id="calcular" class="btn btn-primary mb-4">Calcular</button>
+                <div class="alert alert-warning" role="alert">
+                    <p id="resultado"></p>
+                </div>
+                <div class="alert alert-primary" role="alert">
+                    <p id="msg"></p>
+                </div>
+                <div class="alert alert-success" role="alert">
+                    <p id="fatorial"></p>
+                </div>
+            </div>
         </div>
     </div>
 
@@ -57,7 +81,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
 
-    <script src="js/script.js"></script>
+    <script src="js/calculo.js"></script>
 </body>
 
 </html>
