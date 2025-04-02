@@ -11,7 +11,7 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-danger mb-4">
+    <nav class="navbar navbar-expand-lg navbar-dark mb-4">
         <a class="navbar-brand" href="index.html">Logo da empresa</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Alterna navegação">
@@ -34,25 +34,16 @@
                 <li class="nav-item active">
                     <a class="nav-link" href="atividade03.html">Atividade03</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="integrantes.html">Integrantes</a>
+                </li>
             </ul>
         </div>
     </nav>
 
     <div class="container">
         <div class="row">
-            <div class="col-md-4 col-sm-12">
-                <div class="card">
-                    <div class="card-header">
-                        Destaque
-                    </div>
-                    <div class="card-body">
-                        <h5 class="card-title">Título especial</h5>
-                        <p class="card-text">Com suporte a texto embaixo, que funciona como uma introdução a um conteúdo
-                            adicional.</p>
-                        <a href="#" class="btn btn-primary">Visitar</a>
-                    </div>
-                </div>
-            </div>
+            <img src="img/5566.jpg" alt="">
             <div class="col-md-8 col-sm-12">
                 <div class="form-group">
                     <label for="txtvalor1">Valor 1</label>
@@ -62,16 +53,20 @@
                     <label for="txtvalor2">Valor 2</label>
                     <input type="number" name="txtvalor2"
                     id="txtvalor2" step="0,5" class="form-control">
+
+                    <label for="txtvalor3">Valor 3</label>
+                    <input type="number" name="txtvalor3"
+                    id="txtvalor3" step="0,5" class="form-control">
                 </div>
                 <button id="calcular" class="btn btn-primary mb-4">Calcular</button>
                 <div class="alert alert-warning" role="alert">
-                    <p id="resultado"></p>
+                    <p id="list"></p>
                 </div>
                 <div class="alert alert-primary" role="alert">
-                    <p id="msg"></p>
+                    <p id="resultado"></p>
                 </div>
                 <div class="alert alert-success" role="alert">
-                    <p id="fatorial"></p>
+                    <p id="loop"></p>
                 </div>
             </div>
         </div>
