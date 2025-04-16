@@ -1,0 +1,100 @@
+{
+  "aluno": {
+    "ID1": {
+      "nome": "Lucas",
+      "idade": 15,
+      "email": "teste@gmail.com",
+      "número": 90293092039
+    },
+    "ID2": {
+      "nome": "Lucas",
+      "idade": 15,
+      "número": 90293092039
+    },
+    "ID3": {
+      "nome": "Douglas",
+      "idade": 16
+    },
+    "ID4": {
+      "nome": "Matheus",
+      "idade": 16,
+      "email": "teste@gmail.com"
+    }
+  },
+  "professor": {
+    "P1": {
+      "nome": "Carlos",
+      "idade": 40,
+      "CNH": 111123456789,
+      "disciplina": "Matemática",
+      "email": "teste@gmail.com"
+    },
+    "P2": {
+      "nome": "Maria",
+      "idade": 35,
+      "CNH": 111123456789,
+      "disciplina": "Português",
+      "email": "email.com"
+    },
+    "P3": {
+      "nome": "Pedro",
+      "idade": 55,
+      "disciplina": "Ingês",
+      "email": "email.com"
+    },
+    "P4": {
+      "nome": "Maicon",
+      "idade": 56,
+      "disciplina": "Física",
+      "email": "email.com"
+    }
+  },
+  "curso": {
+    "C1": {
+      "nome": "ADS",
+      "duração": "3 anos"
+    },
+    "C2": {
+      "nome": "ADM",
+      "duração": "2 anos"
+    },
+    "C3": {
+      "nome": "TMA"
+    },
+    "C4": {
+      "nome": "DG"
+    }
+  },
+  "Etec": {
+    "E1": {
+      "nome": "Etesp",
+      "salas": 60
+    },
+    "E2": {
+      "nome": "Martinho di Ciero ",
+      "salas": 20
+    },
+    "E3": {
+      "nome": "Etec Philadelpho Gouvêa Netto"
+    },
+    "E4": {
+      "nome": "Etec de Guarulhos"
+    }
+  },
+  "Cidade": {
+    "C1": {
+      "nome": "São paulo",
+      "nr_habitantes": 20000000
+    },
+    "C2": {
+      "nome": "Itu",
+      "nr_habitantes": 20000000
+    },
+    "C3": {
+      "nome": "Rio preto"
+    },
+    "C4": {
+      "nome": "Guarulhos"
+    }
+  }
+}
