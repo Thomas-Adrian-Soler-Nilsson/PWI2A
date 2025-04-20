@@ -3,7 +3,6 @@
     "ID1": {
       "nome": "Lucas",
       "idade": 15,
-      "email": "teste@gmail.com",
       "número": 90293092039
     },
     "ID2": {
@@ -13,7 +12,8 @@
     },
     "ID3": {
       "nome": "Douglas",
-      "idade": 16
+      "idade": 16,
+      "email": "teste@gmail.com"
     },
     "ID4": {
       "nome": "Matheus",
@@ -52,49 +52,68 @@
   "curso": {
     "C1": {
       "nome": "ADS",
-      "duração": "3 anos"
+      "duração": "3 anos",
+      "Turmas": 4
     },
     "C2": {
       "nome": "ADM",
-      "duração": "2 anos"
+      "duração": "2 anos",
+      "Turmas": 4
     },
     "C3": {
-      "nome": "TMA"
+      "nome": "TMA",
+      "nivel": "técnico",
+      "Turmas": 4
     },
     "C4": {
-      "nome": "DG"
+      "nome": "DG",
+      "nivel": "técnico",
+      "Turmas": 4
     }
   },
   "Etec": {
     "E1": {
       "nome": "Etesp",
-      "salas": 60
+      "salas": 60,
+      "alunos": 400
     },
     "E2": {
       "nome": "Martinho di Ciero ",
-      "salas": 20
+      "salas": 20,
+      "alunos": 400
     },
     "E3": {
-      "nome": "Etec Philadelpho Gouvêa Netto"
+      "nome": "Etec Philadelpho Gouvêa Netto",
+      "alunos": 500,
+      "cursos": 14
     },
     "E4": {
-      "nome": "Etec de Guarulhos"
+      "nome": "Etec de Guarulhos",
+      "alunos": 400,
+      "cursos": 12
+
     }
   },
   "Cidade": {
     "C1": {
       "nome": "São paulo",
-      "nr_habitantes": 20000000
+      "nr_habitantes": 20000000,
+      "Estado": SP
     },
     "C2": {
       "nome": "Itu",
-      "nr_habitantes": 20000000
+      "nr_habitantes": 20000000,
+      "Estado": SP
     },
     "C3": {
-      "nome": "Rio preto"
+      "nome": "Rio preto",
+      "Estado": SP,
+      "km²": 431
     },
     "C4": {
-      "nome": "Guarulhos"
+      "nome": "Guarulhos",
+      "Estado": SP,
+      "km²": 318
     }
   }
 }
