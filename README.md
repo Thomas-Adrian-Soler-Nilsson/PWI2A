@@ -1,20 +1,11 @@
-# PWI2A – Projeto de Programação Web I (2º ano)
+# 💻 PWI2A – Projeto de Programação Web I (2º Ano)
 
 Site desenvolvido no 2º ano da disciplina **Programação Web I** com o professor Márcio.  
 Esse projeto apresenta conteúdos, atividades e um frontend interativo publicado em uma plataforma online.
 
 ---
 
-##  Visualização Online
-
-Acesse o site ao vivo neste link:  
-[pwi‑2‑a.vercel.app](https://pwi-2-a.vercel.app) (hosted via Vercel)
-Obs:
-O Vercel provavelmente está fora do ar...
-
----
-
-##  Estrutura do Projeto
+## 📁 Estrutura do Projeto
 
 O repositório utiliza HTML, JavaScript e CSS para apresentar os conteúdos das aulas. A organização pode seguir o exemplo abaixo:
 PWI2A/
@@ -29,7 +20,7 @@ PWI2A/
 
 ---
 
-##  Tecnologias Utilizadas
+## 🛠️ Tecnologias Utilizadas
 
 - **HTML** 
 - **JavaScript** 
@@ -40,7 +31,7 @@ PWI2A/
 
 ---
 
-##  Como Usar
+## ▶️ Como Usar
 
 1. Clone o repositório:
    ```bash
