@@ -9,6 +9,8 @@ Esse projeto apresenta conteúdos, atividades e um frontend interativo publicado
 
 Acesse o site ao vivo neste link:  
 [pwi‑2‑a.vercel.app](https://pwi-2-a.vercel.app) (hosted via Vercel)
+Obs:
+O Vercel provavelmente está fora do ar...
 
 ---
 
@@ -29,9 +31,11 @@ PWI2A/
 
 ##  Tecnologias Utilizadas
 
-- **HTML** (≈ 85%)
-- **JavaScript** (≈ 13%)
-- **CSS** (≈ 2%)  
+- **HTML** 
+- **JavaScript** 
+- **CSS**
+- **JQUERY*
+- **BOOTSTRAP*
   :contentReference[oaicite:0]{index=0}
 
 ---
